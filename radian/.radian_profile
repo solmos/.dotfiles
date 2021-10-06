@@ -1,0 +1,17 @@
+# either  `"emacs"` (default) or `"vi"`.
+options(radian.editing_mode = "emacs")
+
+# indent continuation lines
+# turn this off if you want to copy code without the extra indentation;
+# but it leads to less elegent layout
+options(radian.indent_lines = TRUE)
+
+# auto match brackets and quotes
+options(radian.auto_match = TRUE)
+
+# auto indentation for new line and curly braces
+options(radian.auto_indentation = TRUE)
+options(radian.tab_size = 2)
+
+# automatically adjust R buffer size based on terminal width
+options(radian.auto_width = TRUE)
